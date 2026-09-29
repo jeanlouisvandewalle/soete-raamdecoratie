@@ -1,0 +1,7 @@
+# Originele aangeleverde bestanden (groot, niet nodig voor de website)
+_input/
+
+# Lokale instellingen
+.claude/
+Thumbs.db
+desktop.ini

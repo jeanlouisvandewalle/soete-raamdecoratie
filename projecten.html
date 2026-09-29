@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projecten — Raamdecoratie Soete</title>
+  <meta name="description" content="Een selectie van realisaties van Raamdecoratie Soete: handgemaakte gordijnen, kussens en stoffering in echte interieurs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Hoofdmenu">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="Soete Raamdecoratie" width="558" height="219"></a>
+    <ul class="nav__group">
+      <li><a href="producten.html">Producten</a></li>
+      <li><a href="projecten.html" aria-current="page">Projecten</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    <ul class="nav__mobile">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="producten.html">Producten</a></li>
+      <li><a href="projecten.html">Projecten</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Projecten</span>
+      <h1>Interieurs die we <em>mochten</em> aankleden</h1>
+      <p class="lead">Elk project is anders, want elk huis en elke bewoner is anders. Een greep uit ons werk.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <!-- Nieuw project: map images/projecten/pX met 01.jpg, 02.jpg, ... en kopieer een blok.
+           data-count = aantal foto's. Brede blokken (gallery__item--wide) nemen 2 kolommen in. -->
+      <div class="gallery">
+        <a class="gallery__item gallery__item--wide reveal" href="images/projecten/p1/08.jpg" data-project="images/projecten/p1/" data-count="8">
+          <div class="media" data-label="Project 01"><img src="images/projecten/p1/08.jpg" alt="Project 01" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 01</strong></div>
+        </a>
+        <a class="gallery__item reveal" href="images/projecten/p2/05.jpg" data-project="images/projecten/p2/" data-count="7">
+          <div class="media" data-label="Project 02"><img src="images/projecten/p2/05.jpg" alt="Project 02" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 02</strong></div>
+        </a>
+        <a class="gallery__item reveal" href="images/projecten/p3/05.jpg" data-project="images/projecten/p3/" data-count="5">
+          <div class="media" data-label="Project 03"><img src="images/projecten/p3/05.jpg" alt="Project 03" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 03</strong></div>
+        </a>
+        <a class="gallery__item reveal" href="images/projecten/p4/07.jpg" data-project="images/projecten/p4/" data-count="14">
+          <div class="media" data-label="Project 04"><img src="images/projecten/p4/07.jpg" alt="Project 04" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 04</strong></div>
+        </a>
+        <a class="gallery__item reveal" href="images/projecten/p5/01.jpg" data-project="images/projecten/p5/" data-count="2">
+          <div class="media" data-label="Project 05"><img src="images/projecten/p5/01.jpg" alt="Project 05" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 05</strong></div>
+        </a>
+        <a class="gallery__item gallery__item--wide reveal" href="images/projecten/p6/14.jpg" data-project="images/projecten/p6/" data-count="14">
+          <div class="media" data-label="Project 06"><img src="images/projecten/p6/14.jpg" alt="Project 06" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 06</strong></div>
+        </a>
+        <a class="gallery__item reveal" href="images/projecten/p7/02.jpg" data-project="images/projecten/p7/" data-count="2">
+          <div class="media" data-label="Project 07"><img src="images/projecten/p7/02.jpg" alt="Project 07" loading="lazy"></div>
+          <div class="gallery__meta"><strong>Project 07</strong></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--greige">
+    <div class="container center reveal">
+      <span class="eyebrow">Jouw project volgende?</span>
+      <h2>Laten we samen <em>iets moois</em> maken</h2>
+      <a class="btn btn--solid" href="contact.html">Contacteer ons</a>
+    </div>
+  </section>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Projectfoto's">
+    <button class="lightbox__close" aria-label="Sluiten">×</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Vorige foto">‹</button>
+    <img src="" alt="">
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Volgende foto">›</button>
+    <div class="lightbox__caption"></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="Soete Raamdecoratie" width="558" height="219"></a>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <h4>Raamdecoratie Soete</h4>
+        <p>Handgemaakte gordijnen en raamdecoratie op maat.<br>Persoonlijk advies, eigen atelier, eigen plaatsing.</p>
+      </div>
+      <div>
+        <h4>Aanbod</h4>
+        <ul>
+          <li><a href="producten.html#gordijnen">Gordijnen</a></li>
+          <li><a href="producten.html#shutters">Shutters</a></li>
+          <li><a href="producten.html#jaloezieen">Jaloezieën &amp; lamellen</a></li>
+          <li><a href="producten.html#stoffering">Kussens &amp; stoffering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Soete</h4>
+        <ul>
+          <li><a href="projecten.html">Projecten</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Mellestraat 3</li>
+          <li>8501 Heule</li>
+          <li><a href="tel:+32498526781">0498 52 67 81</a></li>
+          <li><a href="mailto:delphine.soete@telenet.be">delphine.soete@telenet.be</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Raamdecoratie Soete · BTW BE 0526.745.038</span>
+      <span><a href="https://www.instagram.com/soeteraamdecoratie/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/soeteraamdecoratie/?locale=nl_BE" target="_blank" rel="noopener">Facebook</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

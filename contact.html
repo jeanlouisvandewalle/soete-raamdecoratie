@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Raamdecoratie Soete</title>
+  <meta name="description" content="Maak een afspraak bij Raamdecoratie Soete voor advies aan huis of in de showroom.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container nav" aria-label="Hoofdmenu">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="Soete Raamdecoratie" width="558" height="219"></a>
+    <ul class="nav__group">
+      <li><a href="producten.html">Producten</a></li>
+      <li><a href="projecten.html">Projecten</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <button class="nav__toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+    <ul class="nav__mobile">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="producten.html">Producten</a></li>
+      <li><a href="projecten.html">Projecten</a></li>
+      <li><a href="over-ons.html">Over ons</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1>We maken <em>graag</em> tijd voor je</h1>
+      <p class="lead">Kom langs in onze showroom of vraag een vrijblijvend bezoek aan huis aan. We brengen stalen mee en meten meteen op.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <h2>Showroom &amp; <em>atelier</em></h2>
+        <dl>
+          <dt>Contactpersoon</dt>
+          <dd>Delphine Soete</dd>
+          <dt>Adres</dt>
+          <dd>Mellestraat 3<br>8501 Heule</dd>
+          <dt>Telefoon</dt>
+          <dd><a href="tel:+32498526781">0498 52 67 81</a></dd>
+          <dt>E-mail</dt>
+          <dd><a href="mailto:delphine.soete@telenet.be">delphine.soete@telenet.be</a></dd>
+          <dt>BTW</dt>
+          <dd>BE 0526.745.038</dd>
+          <dt>Bezoek</dt>
+          <dd>Op afspraak, in de showroom of bij jou thuis.</dd>
+        </dl>
+      </div>
+
+      <div class="form reveal">
+        <!-- Zonder action opent het formulier een e-mail. Voor echte verzending: vul action in (bv. Formspree) en method="POST". -->
+        <form id="contact-form" data-mailto="delphine.soete@telenet.be">
+          <div class="form__row">
+            <div class="field"><label for="naam">Naam *</label><input id="naam" name="naam" required autocomplete="name"></div>
+            <div class="field"><label for="gemeente">Gemeente</label><input id="gemeente" name="gemeente" autocomplete="address-level2"></div>
+          </div>
+          <div class="form__row">
+            <div class="field"><label for="email">E-mail *</label><input id="email" name="email" type="email" required autocomplete="email"></div>
+            <div class="field"><label for="telefoon">Telefoon</label><input id="telefoon" name="telefoon" type="tel" autocomplete="tel"></div>
+          </div>
+          <div class="field"><label for="bericht">Je vraag *</label><textarea id="bericht" name="bericht" required placeholder="Vertel ons kort over je project: welke ruimtes, hoeveel ramen, je stijl…"></textarea></div>
+          <button class="btn btn--solid" type="submit">Verstuur aanvraag</button>
+          <p class="form__note">We antwoorden meestal binnen één werkdag.</p>
+        </form>
+        <p class="form__success">Dank je wel! We nemen snel contact met je op.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <a class="logo" href="index.html"><img src="images/logo.png" alt="Soete Raamdecoratie" width="558" height="219"></a>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <h4>Raamdecoratie Soete</h4>
+        <p>Handgemaakte gordijnen en raamdecoratie op maat.<br>Persoonlijk advies, eigen atelier, eigen plaatsing.</p>
+      </div>
+      <div>
+        <h4>Aanbod</h4>
+        <ul>
+          <li><a href="producten.html#gordijnen">Gordijnen</a></li>
+          <li><a href="producten.html#shutters">Shutters</a></li>
+          <li><a href="producten.html#jaloezieen">Jaloezieën &amp; lamellen</a></li>
+          <li><a href="producten.html#stoffering">Kussens &amp; stoffering</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Soete</h4>
+        <ul>
+          <li><a href="projecten.html">Projecten</a></li>
+          <li><a href="over-ons.html">Over ons</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Mellestraat 3</li>
+          <li>8501 Heule</li>
+          <li><a href="tel:+32498526781">0498 52 67 81</a></li>
+          <li><a href="mailto:delphine.soete@telenet.be">delphine.soete@telenet.be</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Raamdecoratie Soete · BTW BE 0526.745.038</span>
+      <span><a href="https://www.instagram.com/soeteraamdecoratie/" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/soeteraamdecoratie/?locale=nl_BE" target="_blank" rel="noopener">Facebook</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
