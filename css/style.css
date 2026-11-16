@@ -307,6 +307,10 @@ p { margin: 0 0 1.1em; }
 .product { padding: clamp(64px, 9vw, 120px) 0; border-top: 1px solid var(--greige); }
 .product__num { font-size: .78rem; letter-spacing: .12em; color: var(--stone); display: block; margin-bottom: 1rem; }
 .product__what { font-family: var(--serif); font-style: italic; font-size: 1.3rem; line-height: 1.45; color: var(--ink); }
+.product__sub { margin: 1.6rem 0; padding-top: 1.4rem; border-top: 1px solid var(--linen); }
+.product__sub h3 { font-size: 1.5rem; margin-bottom: .2rem; }
+.product__sub .product__what { font-size: 1.15rem; margin-bottom: .6rem; }
+.product__sub + .btn { margin-top: .6rem; }
 .product ul { list-style: none; padding: 0; margin: 1.4rem 0 2.2rem; }
 .product li { padding: 11px 0 11px 28px; border-bottom: 1px solid var(--linen); position: relative; font-size: .97rem; }
 .product li::before { content: ""; position: absolute; left: 0; top: 23px; width: 14px; height: 1px; background: var(--accent); }
